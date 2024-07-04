@@ -1,1 +1,0 @@
-(self.webpackChunkwalletbot_app=self.webpackChunkwalletbot_app||[]).push([[4147],{5340:()=>{},9838:()=>{}}]);
