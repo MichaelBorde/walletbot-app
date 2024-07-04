@@ -7,7 +7,6 @@ export function Root() {
   const debug = startParam === "debug";
 
   useEffect(() => {
-    console.log(startParam);
     if (debug) {
       import("eruda").then((lib) => lib.default.init());
     }

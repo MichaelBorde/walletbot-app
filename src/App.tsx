@@ -9,6 +9,7 @@ import {
   useViewport,
 } from "@tma.js/sdk-react";
 import { useEffect } from "react";
+import { Wallet } from "./Wallet";
 
 export function App() {
   const lp = useLaunchParams();
@@ -33,7 +34,7 @@ export function App() {
       appearance={miniApp.isDark ? "dark" : "light"}
       platform={["macos", "ios"].includes(lp.platform) ? "ios" : "base"}
     >
-      Todo
+      <Wallet />
     </AppRoot>
   );
 }
