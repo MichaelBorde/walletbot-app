@@ -5,13 +5,17 @@ import { Connector, useConnect } from "wagmi";
 export function WalletOptions() {
   const { connectors, connect } = useConnect();
 
-  return connectors.map((connector) => (
-    <WalletOption
-      key={connector.uid}
-      connector={connector}
-      onClick={() => connect({ connector })}
-    />
-  ));
+  return (
+    <div className={"p-4 flex gap-4"}>
+      {connectors.map((connector) => (
+        <WalletOption
+          key={connector.uid}
+          connector={connector}
+          onClick={() => connect({ connector })}
+        />
+      ))}
+    </div>
+  );
 }
 
 function WalletOption({
