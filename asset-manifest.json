@@ -1,31 +1,27 @@
 {
   "files": {
     "main.css": "/walletbot-app/static/css/main.4c104d8f.css",
-    "main.js": "/walletbot-app/static/js/main.01c1a688.js",
+    "main.js": "/walletbot-app/static/js/main.ee077420.js",
     "static/js/56.4f249ff5.chunk.js": "/walletbot-app/static/js/56.4f249ff5.chunk.js",
     "static/js/507.acc53405.chunk.js": "/walletbot-app/static/js/507.acc53405.chunk.js",
     "static/js/432.c69d54ba.chunk.js": "/walletbot-app/static/js/432.c69d54ba.chunk.js",
     "static/js/45.e586009c.chunk.js": "/walletbot-app/static/js/45.e586009c.chunk.js",
-    "static/js/435.9671d37f.chunk.js": "/walletbot-app/static/js/435.9671d37f.chunk.js",
-    "static/js/743.5942705e.chunk.js": "/walletbot-app/static/js/743.5942705e.chunk.js",
     "static/js/171.96f6f8c2.chunk.js": "/walletbot-app/static/js/171.96f6f8c2.chunk.js",
-    "static/js/400.ae882662.chunk.js": "/walletbot-app/static/js/400.ae882662.chunk.js",
+    "static/js/400.1cd30d11.chunk.js": "/walletbot-app/static/js/400.1cd30d11.chunk.js",
     "static/js/975.b827fa2b.chunk.js": "/walletbot-app/static/js/975.b827fa2b.chunk.js",
     "static/media/svg": "/walletbot-app/static/media/2d82b92e720462f8dd3b.2d82b92e720462f8dd3b.svg",
     "index.html": "/walletbot-app/index.html",
     "main.4c104d8f.css.map": "/walletbot-app/static/css/main.4c104d8f.css.map",
-    "main.01c1a688.js.map": "/walletbot-app/static/js/main.01c1a688.js.map",
+    "main.ee077420.js.map": "/walletbot-app/static/js/main.ee077420.js.map",
     "56.4f249ff5.chunk.js.map": "/walletbot-app/static/js/56.4f249ff5.chunk.js.map",
     "507.acc53405.chunk.js.map": "/walletbot-app/static/js/507.acc53405.chunk.js.map",
     "45.e586009c.chunk.js.map": "/walletbot-app/static/js/45.e586009c.chunk.js.map",
-    "435.9671d37f.chunk.js.map": "/walletbot-app/static/js/435.9671d37f.chunk.js.map",
-    "743.5942705e.chunk.js.map": "/walletbot-app/static/js/743.5942705e.chunk.js.map",
     "171.96f6f8c2.chunk.js.map": "/walletbot-app/static/js/171.96f6f8c2.chunk.js.map",
-    "400.ae882662.chunk.js.map": "/walletbot-app/static/js/400.ae882662.chunk.js.map",
+    "400.1cd30d11.chunk.js.map": "/walletbot-app/static/js/400.1cd30d11.chunk.js.map",
     "975.b827fa2b.chunk.js.map": "/walletbot-app/static/js/975.b827fa2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c104d8f.css",
-    "static/js/main.01c1a688.js"
+    "static/js/main.ee077420.js"
   ]
 }
