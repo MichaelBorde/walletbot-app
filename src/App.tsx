@@ -3,6 +3,7 @@ import {
   bindMiniAppCSSVars,
   bindThemeParamsCSSVars,
   bindViewportCSSVars,
+  SDKProvider,
   useLaunchParams,
   useMiniApp,
   useThemeParams,
@@ -12,7 +13,24 @@ import { useEffect } from "react";
 import { Wallet } from "./wallet";
 
 export function App() {
-  const lp = useLaunchParams();
+  const { startParam } = useLaunchParams();
+  const debug = startParam === "debug";
+
+  useEffect(() => {
+    if (debug) {
+      import("eruda").then((lib) => lib.default.init());
+    }
+  }, [debug, startParam]);
+
+  return (
+    <SDKProvider acceptCustomStyles debug>
+      <AppWithSDK />
+    </SDKProvider>
+  );
+}
+
+function AppWithSDK() {
+  const { platform } = useLaunchParams();
   const miniApp = useMiniApp();
   const themeParams = useThemeParams();
   const viewport = useViewport();
@@ -32,7 +50,7 @@ export function App() {
   return (
     <AppRoot
       appearance={miniApp.isDark ? "dark" : "light"}
-      platform={["macos", "ios"].includes(lp.platform) ? "ios" : "base"}
+      platform={["macos", "ios"].includes(platform) ? "ios" : "base"}
     >
       <Wallet />
     </AppRoot>

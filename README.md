@@ -12,8 +12,10 @@ This is a Telegram Mini App controlled by [Wallet Bot](https://github.com/Michae
 Start the dev server
 
 ```
-npm start
+npm run dev
 ```
+
+Alternately you can add `-- --host 0.0.0.0` to expose the app and test it via telegram.
 
 Deploy to Github pages
 
