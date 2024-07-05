@@ -9,7 +9,7 @@ import {
   useViewport,
 } from "@tma.js/sdk-react";
 import { useEffect } from "react";
-import { Wallet } from "./Wallet";
+import { Wallet } from "./wallet";
 
 export function App() {
   const lp = useLaunchParams();
